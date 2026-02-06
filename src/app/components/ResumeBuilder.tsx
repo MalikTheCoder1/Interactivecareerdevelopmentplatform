@@ -92,7 +92,7 @@ export function ResumeBuilder() {
                       type="text"
                       value={resumeData.name}
                       onChange={(e) => handleInputChange('name', e.target.value)}
-                      placeholder="Rahul Kumar"
+                      placeholder="Abdul Malik"
                       className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-purple-500 focus:outline-none transition-all"
                     />
                   </div>
@@ -103,7 +103,7 @@ export function ResumeBuilder() {
                         type="email"
                         value={resumeData.email}
                         onChange={(e) => handleInputChange('email', e.target.value)}
-                        placeholder="rahul@email.com"
+                        placeholder="abdul.malik@email.com"
                         className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-purple-500 focus:outline-none transition-all"
                       />
                     </div>
