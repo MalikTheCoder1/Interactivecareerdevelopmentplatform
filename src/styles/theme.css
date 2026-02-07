@@ -163,6 +163,40 @@
     animation: fade-in 0.5s ease-in-out;
   }
 
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slide-in-right {
+    animation: slide-in-right 0.3s ease-out;
+  }
+
+  /* Mobile optimizations */
+  @media (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+    
+    /* Add padding for mobile nav */
+    body {
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+  }
+
+  /* Safe area insets for notched devices */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+
   /**
   * Default typography styles for HTML elements (h1-h4, p, label, button, input).
   * These are in @layer base, so Tailwind utility classes (like text-sm, text-lg) automatically override them.

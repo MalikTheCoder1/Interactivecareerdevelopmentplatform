@@ -62,14 +62,14 @@ export function CareerCounseling() {
   ];
 
   return (
-    <section id="career-counseling" className="py-32 px-6 bg-[#080810]">
+    <section id="career-counseling" className="py-20 md:py-32 px-4 md:px-6 bg-[#080810]">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-4">Career Roadmap Counseling</h2>
-          <p className="text-slate-400 text-lg">AI-powered personalized career roadmap</p>
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">Career Roadmap Counseling</h2>
+          <p className="text-slate-400 text-base md:text-lg">AI-powered personalized career roadmap</p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-6 md:gap-8">
           {/* Left Column: Career Selection */}
           <div className="space-y-6">
             {/* Career Path Selector */}

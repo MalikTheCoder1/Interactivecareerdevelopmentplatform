@@ -95,11 +95,11 @@ export function InterviewPrep() {
   };
 
   return (
-    <section id="interview-prep" className="py-32 px-6 bg-[#050508]">
+    <section id="interview-prep" className="py-20 md:py-32 px-4 md:px-6 bg-[#050508]">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-4">AI Interview Simulation</h2>
-          <p className="text-slate-400 text-lg">Real-time feedback ke saath practice karein</p>
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">AI Interview Simulation</h2>
+          <p className="text-slate-400 text-base md:text-lg">Real-time feedback ke saath practice karein</p>
         </div>
 
         {!interviewStarted ? (
