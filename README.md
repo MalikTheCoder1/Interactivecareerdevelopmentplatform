@@ -1,7 +1,7 @@
 
-  # Interactive Career Development Platform
+  # Skillsync
 
-  This is a code bundle for Interactive Career Development Platform. The original project is available at https://www.figma.com/design/P6AaWNDCfzy127LOBi8ojA/Interactive-Career-Development-Platform.
+  This is a code bundle for Skillsync. The original project is available at https://www.figma.com/design/P6AaWNDCfzy127LOBi8ojA/Skillsync.
 
   ## Running the code
 
